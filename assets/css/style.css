@@ -1296,13 +1296,14 @@ html, body {
   height: 80px;
   border: 0;
   margin: 20px auto 0;
-  overflow: hidden;
+  overflow: revert;
   box-shadow: none;
 }
 
 .review .img-res {
   max-width: 150%;
   max-height: 150%;
+  border-radius: 60px;
 }
 
 .review p {
