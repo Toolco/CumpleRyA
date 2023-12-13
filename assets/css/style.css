@@ -2186,6 +2186,31 @@ textarea.form-control {
   resize: none;
 }
 
+/* Estilos para el popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Estilos opcionales para el botón */
+.btn {
+  /* Estilos de botón */
+}
+
 @media only screen and (max-width: 767px) {
   /* Section: Contact */
   .section-contact .container form {

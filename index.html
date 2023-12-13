@@ -495,7 +495,7 @@
                             <div class="rectangle">
                                 <img src="assets/img/Licea.png" class="img-res" alt="">
                             </div>
-                            <p>The Peluca is a good worker during the time he was with me, if he works great, its so wonderfull</p>
+                            <p>Joel has been a great guy during the time I have known him, I could define him as analytical because when solving problems he always looks for solutions and does not wait for someone else to do it.</p>
                             <div class="review-author">
                                 <h3>Miguel Angel Licea Morales</h3>
                                 <p>Director of EMPRENDUNAV</p>
@@ -507,7 +507,7 @@
                             <div class="rectangle">
                                 <img src="assets/img/Corne.png" class="img-res" alt="">
                             </div>
-                            <p>Joel Caamal is a rare SEO consultant who does things the right way. I’ve been consistently impressed with her process, organization and strategic method of doing SEO the right way.</p>
+                            <p>Joel Caamal is a young man who likes what he does and I can say that he is very helpful because when it comes to doing work he is always willing and very creative as well.</p>
                             <div class="review-author">
                                 <h3>Joel Cornelio Cornelio</h3>
                                 <p>Ex director of EMPRENDUNAV</p>
@@ -937,38 +937,43 @@
         </section> --><!-- /.section-twitter-->
         <!-- End Twitter section --> 
 
-        <!-- Contacts section --> 
-        <section class="site-section section-contact" id="contact">
-            <div class="container">
-                <h2>CONTACT Joel Caamal</h2>
-                <p class="section-subtitle"><span>Here i am</span></p>
-                <div class="row">
-                    <form action="enviar_correo.php" method="post">
-                        <div class="col-md-4">
-                            <input class="form-control" type="text" placeholder="Name" required>
-                        </div>
-                        <div class="col-md-4">
-                            <input class="form-control" type="email" placeholder="Email" required>
-                        </div>
-                        <div class="col-md-4">
-                            <input class="form-control" type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea class="form-control" placeholder="Your Message"  required></textarea>
-                        </div>
-
-                        <div class="col-sm-12">
-                            <button class="btn btn-inverted">Send Message</button>
-                        </div>  
-                    </form>
+        <!-- Contacts section -->
+<section class="site-section section-contact" id="contact">
+    <div class="container">
+        <h2>CONTACT Joel Caamal</h2>
+        <p class="section-subtitle"><span>Here i am</span></p>
+        <div class="row">
+            <form id="contactForm">
+                <div class="col-md-4">
+                    <input class="form-control" type="text" placeholder="Name" required>
                 </div>
-            </div>
-        </section><!-- /.section-contact-->
+                <div class="col-md-4">
+                    <input class="form-control" type="email" placeholder="Email" required>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control" type="text" placeholder="Subject" required>
+                </div>
+                <div class="col-sm-12">
+                    <textarea class="form-control" placeholder="Your Message" required></textarea>
+                </div>
 
-        
+                <div class="col-sm-12">
+                    <button id="openModal" class="btn btn-inverted">Send Message</button>
+                </div>  
+            </form>
+        </div>
+    </div>
+</section><!-- /.section-contact-->
 
-
-        <!-- End Contacts section --> 
+<!-- Popup -->
+<div class="popup-overlay" id="popup">
+    <div class="popup">
+        <h2>Popup Content</h2>
+        <p>This is a popup message.</p>
+        <!-- Puedes colocar aquí el contenido del formulario del popup -->
+        <button id="closeModal" class="btn btn-inverted">Close</button>
+    </div>
+</div>
         
         <!-- Social Networks section --> 
         <section class="section-networks blue-bg">
